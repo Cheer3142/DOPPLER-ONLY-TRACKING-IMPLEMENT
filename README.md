@@ -22,19 +22,6 @@ This project implements a complete Doppler-only target tracking system using an 
 - **EKF Implementation**: Constant Velocity process model with proper noise characterization
 - **MLE Initializer**: Batch optimization for initial state estimation
 
-#### Technical Implementation
+#### The Implementation
 - State Vector: `[px, py, pz, vx, vy, vz]` (6-dimensional)
-- Sampling Rate: 1ms for real-time collision avoidance
-- Carrier Frequency: 24GHz radar (λ = 0.0125m)
-- Process Model: Constant Velocity with adaptive noise modeling
-
-## Implementation Results
-
-The system demonstrates:
-- Stable EKF convergence with proper initialization
-- Sub-meter position estimation accuracy
-- Real-time tracking capability (1000Hz update rate)
-- Effective handling of nonlinear Doppler measurements
-- Comprehensive performance visualization and analysis
-
-## Project Structure
+- Process Model: Constant Velocity 
