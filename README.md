@@ -12,7 +12,6 @@ This project implements a complete Doppler-only target tracking system using an 
 - **Nonlinear Estimation**: Extended Kalman Filter with analytical Jacobian computation
 - **Robust Initialization**: Maximum Likelihood Estimation (MLE) for reliable filter bootstrap
 - **Doppler Measurement Model**: Physics-based Doppler shift calculation for each sensor
-- **Consistency Validation**: Normalized Innovation Squared (NIS) tests for filter performance monitoring
 - **3D Tracking**: Full 6-state estimation (position and velocity in 3D space)
 
 ## System Architecture
